@@ -1,0 +1,40 @@
+.navbar {
+    background: white !important;
+    
+}
+
+.toolbar {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 !important;
+}
+
+.navbar-logo {
+    margin: 0;
+    width: 42px;
+    cursor: pointer;
+}
+
+.titulo-nav {
+    margin-left: 12px !important
+}
+
+.text-decorator-none {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    color: black !important;
+}
+
+.titulo-nav {
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+}
