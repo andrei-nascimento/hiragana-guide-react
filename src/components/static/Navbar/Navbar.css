@@ -15,10 +15,6 @@
     cursor: pointer;
 }
 
-.titulo-nav {
-    margin-left: 12px !important
-}
-
 .text-decorator-none {
     text-decoration: none;
 }
@@ -30,8 +26,10 @@
 }
 
 .titulo-nav {
+    margin-left: 12px !important;
     font-size: 24px !important;
-    font-weight: bold !important;
+    font-weight: 700 !important;
+    font-family: 'Inter' !important;
 }
 
 .principal {
