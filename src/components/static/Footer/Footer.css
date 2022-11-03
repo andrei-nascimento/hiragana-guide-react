@@ -1,0 +1,14 @@
+.footer {
+    background-color: black;
+    height: 64px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter' !important;
+    font-weight: 500 !important
+}

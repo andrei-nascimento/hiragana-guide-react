@@ -1,0 +1,79 @@
+.img-home {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-background {
+    font-family: 'Inter' !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding-top: 140px;
+    text-shadow: 3px 2px 3px white;
+}
+
+.button-background {
+    display: grid;
+    align-items: center;
+    padding-top: 40px;
+    width: 35vh;
+}
+
+.button-text {
+    font-family: 'Inter' !important;
+    font-size: 20px !important;
+    background-color: black !important;
+    color: white !important;
+    border-radius: 40px !important;
+}
+
+.menu-left {
+    display: grid;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 160px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.menu-text {
+    font-family: 'Inter' !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+
+.button-menu {
+    font-family: 'Inter' !important;
+    font-size: 18px !important;
+    background-color: black !important;
+    color: white !important;
+    border-radius: 40px !important;
+    width: 35vh;
+}
+
+.button-box-menu {
+    margin-top: 32px;
+    display: grid;
+    justify-content: center;
+}
+
+.menu-right {
+    display: grid;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.woman {
+    width: 55vh;
+}
+
+.central {
+    justify-content: center !important;
+    align-items: center !important;
+}
