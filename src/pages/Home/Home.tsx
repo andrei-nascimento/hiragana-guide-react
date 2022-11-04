@@ -4,6 +4,8 @@ import { Box, Button, Grid, Typography } from '@material-ui/core';
 import background from '../../assets/jp1.png';
 // @ts-ignore
 import learning from '../../assets/learning.png';
+// @ts-ignore
+import arrow from '../../assets/arrow.png';
 import React from 'react';
 
 function Home() {
@@ -16,10 +18,11 @@ function Home() {
                         Study the hiragana alphabet easily
                     </Typography>
                     <Box className='button-background'>
-                        <Button className='button-text'>
+                        <a href='#anchor' className='link'><Button className='button-text' >
                             Discovery
-                        </Button>
+                        </Button></a>
                     </Box>
+                    <img src={arrow} alt="arrow" className='arrow' />
                 </div>
             </Grid>
             <Grid item xs={6} className='menu-left'>
@@ -33,9 +36,10 @@ function Home() {
                     </Box>
                 </Box>
             </Grid>
-            <Grid item xs={6} className='menu-right'>
+            <Grid item xs={6}  className='menu-right'>
                 <img src={learning} alt="woman studying" className='woman'/>
             </Grid>
+            <div id="anchor"></div>
         </Grid>
     )
 }

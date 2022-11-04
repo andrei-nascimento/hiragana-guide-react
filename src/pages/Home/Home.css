@@ -20,7 +20,6 @@
     display: grid;
     align-items: center;
     padding-top: 40px;
-    width: 35vh;
 }
 
 .button-text {
@@ -29,6 +28,17 @@
     background-color: black !important;
     color: white !important;
     border-radius: 40px !important;
+    width: 30vh;
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+.arrow {
+    display: grid;
+    width: 48px;
+    margin-top: 12px;
 }
 
 .menu-left {

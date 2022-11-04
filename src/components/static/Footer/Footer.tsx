@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css';
-import { Box, Grid, IconButton, Link, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 function Footer() {
     let footerComponent;
