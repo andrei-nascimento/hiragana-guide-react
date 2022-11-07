@@ -37,3 +37,7 @@
     align-items: center;
     cursor: pointer;
 }
+
+.hamburguer-menu {
+    color: black !important;
+}

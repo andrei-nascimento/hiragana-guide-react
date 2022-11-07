@@ -5,9 +5,13 @@ import { AppBar, Box, Grid, IconButton, Toolbar, Typography } from '@material-ui
 import logo from '../../../assets/logo.png';
 import MenuIcon from '@material-ui/icons/Menu';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+// @ts-ignore
+import CustomizedMenus from '../Menu/Menu.tsx';
 
 
 function Navbar() {
+
     let navigate = useNavigate();
     let navbarComponent;
 
@@ -24,9 +28,7 @@ function Navbar() {
             </Box>
         </Grid>
         <Box>
-            <IconButton>
-                <MenuIcon />
-            </IconButton>
+            <CustomizedMenus />
         </Box>
     </Toolbar>
     </AppBar>
