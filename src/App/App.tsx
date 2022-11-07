@@ -5,6 +5,12 @@ import Footer from '../components/static/Footer/Footer.tsx';
 // @ts-ignore
 import Navbar from '../components/static/Navbar/Navbar.tsx';
 // @ts-ignore
+import Additional from '../pages/Additional/Additional.tsx';
+// @ts-ignore
+import Basic from '../pages/Basic/Basic.tsx';
+// @ts-ignore
+import Essential from '../pages/Essential/Essential.tsx';
+// @ts-ignore
 import Home from '../pages/Home/Home.tsx';
 import './App.css';
 
@@ -16,6 +22,9 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/home' element={<Home />} />
+            <Route path='/basic-table' element={<Basic />} />
+            <Route path='/essential-table' element={<Essential />} />
+            <Route path='/additional-table' element={<Additional />} />
           </Routes>
         </div>
       <Footer />

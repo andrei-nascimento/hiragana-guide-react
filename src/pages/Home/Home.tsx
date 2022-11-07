@@ -6,6 +6,7 @@ import background from '../../assets/jp1.png';
 import learning from '../../assets/learning.png';
 // @ts-ignore
 import arrow from '../../assets/arrow.png';
+import { Link } from "react-router-dom";
 import React from 'react';
 
 function Home() {
@@ -30,9 +31,11 @@ function Home() {
                     <Typography className='menu-text'>With <strong>Higanana Guide</strong> you can practice and learn about the most important japanese alphabet. A simple way to improve your skills and make sure that your pronunciation will be correct. Start with the vogals and then, learn about the groups of syllables.
                     </Typography>
                     <Box className='button-box-menu'>
-                        <Button className='button-menu'>
-                            Hiragana Table
-                        </Button>
+                        <Link to='/basic-table' className='link'>
+                            <Button className='button-menu'>
+                                Hiragana Table
+                            </Button>
+                        </Link>
                     </Box>
                 </Box>
             </Grid>

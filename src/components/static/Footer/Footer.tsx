@@ -15,7 +15,6 @@ function Footer() {
         </Grid>
     </Grid>
     
-    
     return(
         <>
             {footerComponent}
