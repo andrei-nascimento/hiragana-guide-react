@@ -1,11 +1,9 @@
 import React from 'react';
 import './Navbar.css';
-import { AppBar, Box, Grid, IconButton, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Box, Grid, Toolbar, Typography } from '@material-ui/core';
 // @ts-ignore
 import logo from '../../../assets/logo.png';
-import MenuIcon from '@material-ui/icons/Menu';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
 // @ts-ignore
 import CustomizedMenus from '../Menu/Menu.tsx';
 
