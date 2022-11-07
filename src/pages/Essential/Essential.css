@@ -1,0 +1,78 @@
+.container-essential {
+    display: grid;
+    justify-content: center;
+}
+
+.container-essential-paper {
+    justify-content: center;
+    align-items: center;
+}
+
+.title-essential {
+    display: grid;
+    justify-content: center;
+    font-family: 'Inter' !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    padding-top: 54px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.paper-none {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 120px;
+    height: 100px;
+    margin: 8px;
+}
+
+.paper-none-dash {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 120px;
+    height: 100px;
+    margin: 8px;
+    color: white !important;
+}
+
+.papers-essential { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9 !important;
+    height: 100px !important;
+    width: 120px !important;
+    font-family: 'Noto Sans Japanese' !important;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.silaba {
+    font-family: 'Inter';
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    justify-content: center;
+    align-items: center
+}
+
+.essential-button {
+    display: flex;
+    justify-content: center;
+    
+}

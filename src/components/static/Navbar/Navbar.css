@@ -12,7 +12,7 @@
 .navbar-logo {
     margin: 0;
     width: 42px;
-    cursor: pointer;
+
 }
 
 .text-decorator-none {
@@ -35,4 +35,5 @@
 .principal {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
