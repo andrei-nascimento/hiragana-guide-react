@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Hiragana Guide 🎌
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed in the Typescript language, using React as the main library, CSS and the Material UI.
+The main purpose of the application is educational and is intended to be a help to those who are learning the fascinating Japanese language.
 
-## Available Scripts
+Before starting to put the lines of code, I created the entire application design in Figma, which helped me a lot as a guide in my development.
+I was happy with the result because it is very faithful to what I had planned.
 
-In the project directory, you can run:
+Curious to see the project? Check it out: https://hiragana-guide.netlify.app/home
 
-### `npm start`
+## Images and Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These are some screenshots I took of the application showing most of the components, like the navbar, menu, footer, home, the three main tables/pages.
+Please, feel free to take a look in the link provided in the intro of this document.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![home](https://user-images.githubusercontent.com/76922943/200403365-610d3575-ad76-4cda-984a-7b7bd418b91f.png)
+This is the main component of the application, as soon as you click on the link, this interface will be presented with the navbar containing the project's logo and title on the left, and on the right is the menu that gives access to other pages.
 
-### `npm test`
+![menu](https://user-images.githubusercontent.com/76922943/200403837-f24c80e9-6477-4a17-b9be-fe76c7081861.png)
+As you can see, we have three tables/pages in the menu on the right with the content to be viewed by the user.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![home2](https://user-images.githubusercontent.com/76922943/200404478-180a8197-5c90-423c-834d-af157f4c3581.png)
+Still on the main page we have a second part where it is explained how the application works, a button that gives access to the first table/page and the footer component.
 
-### `npm run build`
+![basic](https://user-images.githubusercontent.com/76922943/200407837-57f567e1-a2df-4d0a-9f3a-9789479647be.png)
+Now in the first table, "Basic", we have the necessary content so that the aspiring Japanese language studies can take their first steps towards fluency.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![essential](https://user-images.githubusercontent.com/76922943/200404922-383623c8-9b2b-4683-bf49-e053a93fb0c2.png)
+This page would be level 2 of studies, so the first table has already been learned.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![additional](https://user-images.githubusercontent.com/76922943/200405128-a91f45d6-eb12-4f18-9b26-2101cbfedfd7.png)
+And finally, we have the last page, which would be a complement to what has already been studied and help to reinforce the content.
+From now on, the student is ready to continue his studies at another level, with other types of content.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Why do this project?
+The hiragana guide is an idea I've had for a long time, but I still didn't have the necessary technical knowledge to develop something of quality. I even did it at the beginning of my journey as a developer in pure html and css, but the result was not pleasant for me. So I studied for a long time and here I am with my first ready-to-use version.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Improvements
+In the future I want to add the audio resource on each card in the table to facilitate learning and make the student fix in his mind the sounds of the syllables that are very important. And also adapt the project for mobile devices, as it currently works well for desktop only.
