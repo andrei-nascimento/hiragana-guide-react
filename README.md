@@ -6,7 +6,7 @@ The main purpose of the application is educational and is intended to be a help 
 Before starting to put the lines of code, I created the entire application design in Figma, which helped me a lot as a guide in my development.
 I was happy with the result because it is very faithful to what I had planned.
 
-Curious to see the project? Check it out: https://hiragana-guide.netlify.app/home
+Curious to see the project? Check it out: https://hiragana-guide.netlify.app/
 
 ## Images and Components
 
