@@ -1,7 +1,9 @@
 import React from "react";
 import './Basic.css';
 import { Button, Grid, Paper, Typography } from '@material-ui/core';
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
+// @ts-ignore 
+import ButtonAudioA from "../../components/Audios.tsx";
 
 function Basic() {
     return(
@@ -21,8 +23,8 @@ function Basic() {
                 <Paper className='paper-none' elevation={0}>O</Paper>
             </Grid>
             <Grid item className='papers-basic'>
-                <Paper className='paper-none-dash' elevation={0}>-</Paper>
-                <Paper className='paper'>あ<p className='silaba'>a</p></Paper>
+                <Paper className='paper-none-dash'elevation={0}>-</Paper>
+                <Paper className='paper'><p className="jp">あ</p><p className='silaba'>a</p><ButtonAudioA /></Paper>
                 <Paper className='paper'>い<p className='silaba'>i</p></Paper>
                 <Paper className='paper'>う<p className='silaba'>u</p></Paper>
                 <Paper className='paper'>え<p className='silaba'>e</p></Paper>

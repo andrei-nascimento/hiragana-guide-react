@@ -1,0 +1,8 @@
+.audio-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 0;
+    margin-top: 8px
+}
