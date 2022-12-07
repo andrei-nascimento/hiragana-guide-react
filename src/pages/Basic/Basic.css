@@ -29,8 +29,7 @@
     width: 100px;
     height: 140px;
     margin: 8px;
-    padding-left: 6px;
-    padding-right: 6px;
+    
 }
 
 .paper-none-dash {
@@ -44,8 +43,7 @@
     height: 140px;
     margin: 8px;
     color: white !important;
-    padding-left: 6px;
-    padding-right: 6px;
+    
 }
 
 .papers-basic { 
@@ -66,10 +64,8 @@
     font-size: 32px;
     font-weight: 600;
     margin: 8px;
-    padding-bottom: 4px;
-    padding-top: 0px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-bottom: 24px;
+    padding-top: 4px;
 }
 
 .jp {
