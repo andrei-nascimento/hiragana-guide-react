@@ -1,6 +1,7 @@
 .container-essential {
     display: grid;
     justify-content: center;
+    padding-bottom: 54px;
 }
 
 .container-essential-paper {

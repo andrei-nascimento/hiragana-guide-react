@@ -1,6 +1,7 @@
 .container-basic {
     display: grid;
     justify-content: center;
+    padding-bottom: 54px;
 }
 
 .container-basic-paper {
@@ -29,7 +30,6 @@
     width: 100px;
     height: 140px;
     margin: 8px;
-    
 }
 
 .paper-none-dash {
@@ -43,14 +43,12 @@
     height: 140px;
     margin: 8px;
     color: white !important;
-    
 }
 
 .papers-basic { 
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .paper {

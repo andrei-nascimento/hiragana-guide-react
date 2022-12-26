@@ -1,6 +1,7 @@
 .container-basic {
     display: grid;
     justify-content: center;
+    padding-bottom: 54px;
 }
 
 .container-basic-paper {

@@ -1,11 +1,11 @@
 import './Home.css';
 import { Box, Button, Grid, Typography } from '@material-ui/core';
 // @ts-ignore
-import background from '../../assets/jp1.png';
+import background from '../../assets/imgs/jp1.png';
 // @ts-ignore
-import learning from '../../assets/learning.png';
+import learning from '../../assets//imgs/learning.png';
 // @ts-ignore
-import arrow from '../../assets/arrow.png';
+import arrow from '../../assets/imgs/arrow.png';
 import { Link } from "react-router-dom";
 import React from 'react';
 

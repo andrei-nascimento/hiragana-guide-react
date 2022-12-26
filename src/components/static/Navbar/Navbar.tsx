@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { AppBar, Box, Grid, Toolbar, Typography } from '@material-ui/core';
 // @ts-ignore
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/imgs/logo.png';
 import { useNavigate } from 'react-router-dom';
 // @ts-ignore
 import CustomizedMenus from '../Menu/Menu.tsx';
