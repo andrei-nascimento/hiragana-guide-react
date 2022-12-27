@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // @ts-ignore
 import Footer from '../components/static/Footer/Footer.tsx';
 // @ts-ignore
+import Material from '../components/static/Material/Material.tsx';
+// @ts-ignore
 import Navbar from '../components/static/Navbar/Navbar.tsx';
 // @ts-ignore
 import Additional from '../pages/Additional/Additional.tsx';
@@ -22,6 +24,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/home' element={<Home />} />
+            <Route path='/books' element={<Material />} />
             <Route path='/basic-table' element={<Basic />} />
             <Route path='/essential-table' element={<Essential />} />
             <Route path='/additional-table' element={<Additional />} />

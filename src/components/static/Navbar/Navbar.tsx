@@ -6,6 +6,8 @@ import logo from '../../../assets/imgs/logo.png';
 import { useNavigate } from 'react-router-dom';
 // @ts-ignore
 import CustomizedMenus from '../Menu/Menu.tsx';
+// @ts-ignore
+import MenuBookIcon from '@material-ui/icons/MenuBook';
 
 
 function Navbar() {
@@ -13,22 +15,30 @@ function Navbar() {
     let navigate = useNavigate();
     let navbarComponent;
 
-    navbarComponent = <AppBar position="static" className='navbar'>
-    <Toolbar className='toolbar'>
-        <Grid className='principal' onClick={() => {navigate('/home')}}>
-            <img src={logo} alt="logo" className='navbar-logo' />
-            <Box className='menu'>
-                <Box>
-                    <Typography className='titulo-nav'>
-                        Hiragana Guide
-                    </Typography>
+    navbarComponent = 
+    <AppBar position="static" className='navbar'>
+        <Toolbar className='toolbar'>
+            <Grid className='principal' onClick={() => {navigate('/home')}}>
+                <img src={logo} alt="logo" className='navbar-logo' />
+                <Box className='menu'>
+                    <Box>
+                        <Typography className='titulo-nav'>
+                            Hiragana Guide
+                        </Typography>
+                    </Box>
                 </Box>
-            </Box>
-        </Grid>
-        <Box>
-            <CustomizedMenus />
-        </Box>
-    </Toolbar>
+            </Grid>
+            <Grid className='content'>
+                <Box>
+                    <MenuBookIcon 
+                    className='material-navbar'
+                    onClick={() => {navigate('/books')}}/>
+                </Box>
+                <Box>
+                    <CustomizedMenus />
+                </Box>
+            </Grid>
+        </Toolbar>
     </AppBar>
 
     return(
