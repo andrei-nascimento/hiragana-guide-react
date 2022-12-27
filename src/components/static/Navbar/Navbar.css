@@ -41,3 +41,16 @@
 .hamburguer-menu {
     color: black !important;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.material-navbar {
+    color: #212121;
+    font-size: 30px;
+    padding-top: 2px;
+    cursor: pointer;
+}
