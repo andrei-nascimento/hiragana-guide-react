@@ -32,7 +32,8 @@ function Navbar() {
                 <Box>
                     <MenuBookIcon 
                     className='material-navbar'
-                    onClick={() => {navigate('/books')}}/>
+                    onClick={() => {navigate('/books')}}
+                    />
                 </Box>
                 <Box>
                     <CustomizedMenus />
