@@ -50,7 +50,7 @@
 
 .material-navbar {
     color: #212121;
-    font-size: 30px;
+    font-size: 30px !important;
     padding-top: 2px;
     cursor: pointer;
 }
