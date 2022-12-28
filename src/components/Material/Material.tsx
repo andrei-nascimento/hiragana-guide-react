@@ -35,7 +35,7 @@ function Material(props) {
                         <img src={image} alt='book cover'/>
                     </CardMedia>
 
-                    <CardContent style={{ display: 'flex', justifyContent: 'center', paddingBottom: 0 }}>
+                    <CardContent style={{ display: 'flex', justifyContent: 'center', paddingBottom: 10 }}>
                         <Typography style={{ fontSize: 24, fontWeight: 'bold' }}>
                             {title}
                         </Typography>
@@ -43,9 +43,15 @@ function Material(props) {
 
                 </CardActionArea>
 
-                <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
-                    <Button onClick={onButtonClick}>
-                        <Typography style={{ fontSize: 14 }}>
+                <CardActions style={{ display: 'flex', justifyContent: 'center', paddingBottom: 16 }}>
+                    <Button onClick={onButtonClick}
+                        style={{
+                            backgroundColor: 'black',
+                            paddingLeft: 20,
+                            paddingRight: 20,
+                            paddingTop: 8 
+                        }}>
+                        <Typography style={{ fontSize: 14, color: 'white' }}>
                             Download
                         </Typography>
                         
